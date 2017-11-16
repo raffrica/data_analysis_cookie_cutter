@@ -8,3 +8,12 @@ CURRENT_DIR="$PWD"
 echo $CURRENT_DIR
 
 mkdir "specific_project_name"
+
+cd specific_project_name
+
+mkdir "data"
+mkdir "doc"
+mkdir "results"
+mkdir "src"
+mkdir "bin"
+mkdir "from_joe"
