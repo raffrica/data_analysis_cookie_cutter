@@ -5,11 +5,15 @@
 
 CURRENT_DIR="$PWD"
 
-echo $CURRENT_DIR
+echo "Enter the desired name for your project"
+echo "(Please use underscores if more than one word)"
+read project_name
 
-mkdir "specific_project_name"
+echo Making $project_name in $CURRENT_DIR
 
-cd specific_project_name
+mkdir "$project_name"
+
+cd $project_name
 
 mkdir "data"
 mkdir "doc"
