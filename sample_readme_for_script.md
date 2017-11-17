@@ -1,9 +1,9 @@
 # README
 
-Data analysis for INSERT_PROJECT_NAME.
+Data analysis for <INSERT_PROJECT_NAME>.
 Created by Daniel Raff daniel18raff@gmail.com.
 
-Started on INSERT DATE.
+Started on <INSERT DATE>.
 
 `data` directory: Only raw data and metadata. These files are *not* to
 be modified.

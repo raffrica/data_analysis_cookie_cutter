@@ -27,6 +27,16 @@ atom `~/.bashrc`
 
 ![project_structure_example](project_structure_example.png)
 
+`data` directory: Only raw data and metadata. These files are *not* to
+be modified.
+
+`doc` directory: text documents (eg: manuscripts, documentation, record of experiments)
+
+`results` directory: intermediate results, cleaned data, final results, etc.
+
+`src` directory: project source code
+
+`misc` directory (in above diagram this is `from_joe`): Anything that is of poor quality and/or doesn't fit in above directories.
 
 
 
