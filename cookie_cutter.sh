@@ -1,5 +1,9 @@
 #! /bin/bash/
 
+### This script creates a data analysis project directory.
+### Created by Daniel Raff daniel18raff@gmail.com based on lectures by Tiffany Timbers
+
+
 # Note: I've added the directory containing this script to my PATH
 # so it can be run from anywhere
 
