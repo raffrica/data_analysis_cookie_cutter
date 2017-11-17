@@ -40,3 +40,11 @@ echo "$(cat $DIR/sample_readme_for_script.md)" >> README.md
 # Adds the MIT license file
 touch "LICENSE.md"
 echo "$(cat $DIR/sample_license_mit.md)" >> LICENSE.md
+
+# Adds CITATION file
+touch "CITATION.md"
+echo "Include Citation information for your project when available"
+
+# Adds to-do file for use in Collaboration and project planning
+touch "todo.txt"
+echo "A place for high-level project planning, collaboration, and task management."
