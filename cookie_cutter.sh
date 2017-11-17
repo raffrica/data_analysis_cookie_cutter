@@ -3,6 +3,13 @@
 # Note: I've added the directory containing this script to my PATH
 # so it can be run from anywhere
 
+# Modelled README after:
+# https://github.com/bdcaf/cookiecutter-r-data-analysis
+
+# Actual directory was modelled after lecture by Tiffany Timbers
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
 CURRENT_DIR="$PWD"
 
 echo "Enter the desired name for your project"
@@ -15,9 +22,17 @@ mkdir "$project_name"
 
 cd $project_name
 
+# Creates the directories
 mkdir "data"
 mkdir "doc"
 mkdir "results"
 mkdir "src"
-mkdir "bin"
-mkdir "from_joe"
+mkdir "misc"
+
+# Adds a README file starting from sample template
+touch "README.md"
+echo "$(cat $DIR/sample_readme_for_script.md)" >> README.md
+
+# Adds the MIT license file
+touch "LICENSE.md"
+echo "$(cat $DIR/sample_license_mit.md)" >> LICENSE.md
