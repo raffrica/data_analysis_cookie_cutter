@@ -48,3 +48,9 @@ echo "Include Citation information for your project when available"
 # Adds to-do file for use in Collaboration and project planning
 touch "todo.txt"
 echo "A place for high-level project planning, collaboration, and task management."
+
+# Adds a .gitkeep to each directory so that directories will be on github even
+# if empty 
+for d in */ ; do
+    touch $d/.gitkeep
+done
