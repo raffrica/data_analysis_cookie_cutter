@@ -43,14 +43,14 @@ echo "$(cat $DIR/sample_license_mit.md)" >> LICENSE.md
 
 # Adds CITATION file
 touch "CITATION.md"
-echo "Include Citation information for your project when available"
+echo "Include Citation information for your project when available" >> CITATION.md
 
 # Adds to-do file for use in Collaboration and project planning
 touch "todo.txt"
-echo "A place for high-level project planning, collaboration, and task management."
+echo "A place for high-level project planning, collaboration, and task management." >> todo.txt
 
 # Adds a .gitkeep to each directory so that directories will be on github even
-# if empty 
+# if empty
 for d in */ ; do
     touch $d/.gitkeep
 done
